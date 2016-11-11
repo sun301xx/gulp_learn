@@ -8,8 +8,8 @@
 
 ###4.在gulpfile.js文件中创建如下代码
 
-`
-var gulp    = require('gulp');
+
+`var gulp    = require('gulp');
     var less    = require('gulp-less');
     var nano    = require('gulp-cssnano');
     var concat  = require('gulp-concat');
@@ -24,7 +24,6 @@ var gulp    = require('gulp');
     .pipe(nano())   //压缩css
     .pipe(gulp.dest('dist/styles'));//告诉gulp处理完成后文件放在什么位置
  });
- ...
-`
+ ...`
 ###5.在mac终端 或者 window的cmd中 输入 gulp style 运行 gulp
 
