@@ -1,0 +1,5 @@
+1.命令行init创建npm配置文件 ----> npm init
+2.添加一个gulp依赖         ----> npm install gulp --save-dev
+3.在项目根目录中创建gulpfile.js文件  -----> do it yourself
+4.
+
